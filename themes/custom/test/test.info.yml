@@ -1,0 +1,23 @@
+name: test
+type: theme
+description: "just another theme for test"
+base theme: false
+libraries:
+  - test/base
+  - test/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - test/user
+  core/drupal.dropbutton:
+    - test/dropbutton
+  core/drupal.dialog:
+    - test/dialog
+  file/drupal.file:
+    - test/file
+  core/drupal.progress:
+    - test/progress
+version: 10.1.0
+project: drupal
+datestamp: 1687424349
+core_version_requirement: ^10

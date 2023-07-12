@@ -1,0 +1,18 @@
+:root {
+    /*
+     * Typography.
+     */
+    --font-family: dmsans;
+    --font-size-base: 1rem; /* 1rem = 16px if font root is 100% ands browser defaults are used. */
+    --font-size-xxl: 5rem; /* ~80px */
+    --font-size-l: 2.65rem; /* ~42px */
+    --font-size-h1: 3.125rem; /* ~50px */
+    --font-size-h2: 1.802rem; /* ~29px */
+    --font-size-h3: 1.602rem; /* ~26px */
+    --font-size-h4: 1.6rem; /* ~23px */
+    --font-size-h5: 1.266rem; /* ~20px */
+    --font-size-h6: 1.125rem; /* 18px */
+    --font-size-s: 0.889rem; /* ~14px */
+    --font-size-xs: 0.79rem; /* ~13px */
+    --font-size-xxs: 0.702rem; /* ~11px */
+}
